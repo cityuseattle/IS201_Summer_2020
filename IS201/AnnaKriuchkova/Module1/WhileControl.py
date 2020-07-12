@@ -8,3 +8,4 @@ while num >= 1:
     num -= 1
 
 print('The sum is: ' + str(total))
+

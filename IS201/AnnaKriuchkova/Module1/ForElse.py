@@ -6,4 +6,3 @@ for num in range(10,20):           #to iterate between 10 and 20
             break                  #to move to the next number, the #first FOR
     else: 
         print(num, 'is a prime number')
-        

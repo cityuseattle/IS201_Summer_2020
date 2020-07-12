@@ -17,4 +17,3 @@ if ( a in list ):
     print ("Line 3 - a is available in the given list")
 else: 
     print ("Line 3 - a is not available in the given list")
-

@@ -25,4 +25,3 @@ if number > 1:
 #if number is not greater than 1, it is not a prime number
 else:
     print (number, "is not a prime number.")
-
