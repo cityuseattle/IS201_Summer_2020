@@ -7,8 +7,7 @@
 def make_shirt(size, text):
     """Create a function that will automate the T-shirt order process"""
     #summarize the order and display it to the user
-    print("You have ordered the " + size + " size T-shirt. Selected logo is " 
-    + text + ".")
+    print(f"You have ordered the {size} size T-shirt. Selected logo is {text}.")
 
 #call the function, using positional arguments
 make_shirt("S", "Positive vibes")
@@ -21,8 +20,7 @@ make_shirt(size="M", text="CityU TECH")
 def make_shirt(size="L", text="I love Python"):
     """Create a function that will automate the T-shirt order process"""
     #summarize the order and display it to the user
-    print("You have ordered the " + size + " size T-shirt. Selected logo is " 
-    + text + ".")
+    print(f"You have ordered the {size} size T-shirt. Selected logo is {text}.") 
 
 #call the function, using default parameters
 make_shirt()
@@ -39,7 +37,7 @@ def make_shirt(size, message):
     #ask a user to enter T-shirt size
     size = input("Please enter your size. Available sizes are: S,M,L - ")
     #define selection of sizes, using a list
-    sizes = ['S','M','L']
+    sizes = ['S','M','L', 's', 'm', 'l']
 
 #eliminate sizes, that are not in the list, by using while loop, along with not in method 
 #make sure user gets to enter a size again
@@ -55,7 +53,7 @@ def make_shirt(size, message):
         print("Are you sure you don't want any logo?")
         response = input("Type 'Y' to continue or 'N' to try again: ")
         if response == 'Y':
-            print("Your order is processed. Selected size: " + str(size) + ". " + "No logo is chosen.")
+            print(f"Your order is processed. Selected size: {size}. No logo is chosen.")
             exit()
         elif response == 'N':
             make_shirt(size, message)
@@ -63,7 +61,7 @@ def make_shirt(size, message):
             exit()
 
 #display final order to the user
-    print("Your order is processed. Selected size: " + str(size) + ". " + "Selected logo: " + str(message) + ".")
+    print(f"Your order is processed. Selected size: {size}. Selected logo: {message}.")
     exit()
 
 #call in make_shirt function
