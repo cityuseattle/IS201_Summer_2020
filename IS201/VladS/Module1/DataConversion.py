@@ -1,3 +1,2 @@
-price = 10
-print('How many beers do you want?')
-print('Your total price is: $' + str(price * int(input())))
+a={3,4,{7,5}} 
+print(a[2][0])  
