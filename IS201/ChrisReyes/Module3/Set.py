@@ -11,3 +11,4 @@ print(set1)
 
 thisset = set(("apple", "banana", "Cherry")) # note the double round-brackets
 print(thisset)
+
