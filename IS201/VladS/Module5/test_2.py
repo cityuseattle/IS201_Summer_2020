@@ -1,7 +1,12 @@
-try:
- fh = open("testfile","r")
- fh.write("This is my test file for exception handling!!")
-except IOError:
- print("Error: can\'t find file or read data")
-else:
- print("Written content in the file successfully")
+class Dog: 
+
+    def __init__(self, name, age):         
+
+        self.name = name 
+
+        self.age = age 
+
+ 		
+ 		
+Dog.create("Rufus",3)
+

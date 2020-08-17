@@ -1,4 +1,8 @@
-import order_module
-
-order_module.order(1,"Pizza")
-order_module.order(3,"Soup","Pasta","Pizza")
+try:   
+   1 / 0   
+except:   
+   print('exception')   
+else:   
+   print('else')   
+finally:   
+   print('finally')
