@@ -1,7 +1,8 @@
+
 #import PIL as pillow
 from PIL import Image
 #image info and changing format
- 
+
 #this returns value of img objrct data type 
 img = Image.open('bulldog.jpg')
 width, height = Image.size
